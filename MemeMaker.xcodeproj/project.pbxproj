@@ -14,6 +14,8 @@
 		524EF865258768B300DDA86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524EF864258768B300DDA86F /* Assets.xcassets */; };
 		524EF868258768B300DDA86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524EF866258768B300DDA86F /* LaunchScreen.storyboard */; };
 		524EF8752587724A00DDA86F /* CaptionChoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524EF8742587724A00DDA86F /* CaptionChoise.swift */; };
+		529DAE0B2588F5E200BF0807 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 529DAE092588F5E100BF0807 /* Screenshot02.png */; };
+		529DAE0C2588F5E200BF0807 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 529DAE0A2588F5E200BF0807 /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		524EF867258768B300DDA86F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524EF869258768B300DDA86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524EF8742587724A00DDA86F /* CaptionChoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoise.swift; sourceTree = "<group>"; };
+		529DAE092588F5E100BF0807 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		529DAE0A2588F5E200BF0807 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		524EF85A258768AE00DDA86F /* MemeMaker */ = {
 			isa = PBXGroup;
 			children = (
+				529DAE0E2588F5E800BF0807 /* Screenshots */,
 				524EF85B258768AE00DDA86F /* AppDelegate.swift */,
 				524EF85D258768AE00DDA86F /* SceneDelegate.swift */,
 				524EF85F258768AE00DDA86F /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				524EF869258768B300DDA86F /* Info.plist */,
 			);
 			path = MemeMaker;
+			sourceTree = "<group>";
+		};
+		529DAE0E2588F5E800BF0807 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				529DAE0A2588F5E200BF0807 /* Screenshot01.png */,
+				529DAE092588F5E100BF0807 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,8 @@
 				524EF868258768B300DDA86F /* LaunchScreen.storyboard in Resources */,
 				524EF865258768B300DDA86F /* Assets.xcassets in Resources */,
 				524EF863258768AE00DDA86F /* Main.storyboard in Resources */,
+				529DAE0C2588F5E200BF0807 /* Screenshot01.png in Resources */,
+				529DAE0B2588F5E200BF0807 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
